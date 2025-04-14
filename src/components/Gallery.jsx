@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const Gallery = () => {
+const Gallery = ({tours, setTours, onRemove}) => {
 };
 
 export default Gallery;
