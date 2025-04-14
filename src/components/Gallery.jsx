@@ -22,7 +22,9 @@ const Gallery = ({ tours, setTours, onRemove }) => {
     }, []);
 
     if (loading) return <h2>Loading...</h2>;
+
     if (error) return <h2>Something went wrong. Please try again later.</h2>;
+    
     if (tours.length === 0)
         return (
             <div>
