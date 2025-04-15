@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 2rem;
-    background-color: #f4f4f4;
   }
   
   main {
@@ -17,7 +16,7 @@ body {
   }
   
   .tour-card {
-    background: white;
+    background: #888888;
     border-radius: 0.5rem;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -31,22 +30,23 @@ body {
   }
   
   .tour-info {
-    display: flex;
+    displayX: flex;
     justify-content: space-between;
     align-items: center;
   }
   
   .tour-price {
-    color: #49a6e9;
+    color: #00BFFF;
     font-weight: bold;
   }
   
   button {
     background: none;
     border: none;
-    color: #49a6e9;
+    color: #EEDC82;
     cursor: pointer;
     font-size: 0.9rem;
+    font-weight: bold;
   }
   
   .btn {
@@ -55,4 +55,8 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
     margin-top: 1rem;
+  }
+
+  .space-left {
+    margin-left: 10px;
   }
