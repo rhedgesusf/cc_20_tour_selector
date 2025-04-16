@@ -60,3 +60,7 @@ body {
   .space-left {
     margin-left: 10px;
   }
+
+  .label {
+    font-weight: bold;
+  }
